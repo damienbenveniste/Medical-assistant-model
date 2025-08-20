@@ -8,9 +8,9 @@ The data presented is akin to a *Sequence-to-Sequence* learning task. The data i
 
 By reducing the sequence scale to maximum 256 tokens, using an *Encoder-Decoder* architecture becomes potentially more adapted. I used a T5-FLAN-small model (77M parameters) as a pretrained model for the fine-tuning job.
 
-Both models are trained by computing the loss function only on the completion and the decoder-only model is trained with a LoRA adapter. I use BertScore as a validation metric measured on the generated answers compared to reference answers. Bertscore is good to validate that the model starts to use more of a medical jargon, but it will also provide a sense of domain knowledge in the responses provided. Considering the simple question-answer format following learning task, perplexity is also meaningful metric to consider. As expected, the 2025 500M parameter QWen model outperformed the 2021 77M parameter T5-FLAN model in both those scores!
+Both models are trained by computing the loss function only on the completion and the decoder-only model is trained with a LoRA adapter. I use BertScore as a validation metric measured on the generated answers compared to reference answers. Bertscore is good to validate that the model starts to use more of a medical jargon, but it will also provide a sense of domain knowledge in the responses provided. Considering the simple question-answer format following learning task, perplexity (or cross-entropy) is also meaningful metric to consider. Especially for T5-FLAN that is still pretty weak in causal language modeling, perplexity is more relevant than Bertscore at this training stage. As expected, the 2025 500M parameter QWen model outperformed the 2021 77M parameter T5-FLAN model in both those scores!
 
-Considering the time-constraint, no cross-validation, nor a full exploration of the training techniques could be performed beyond the ones provided
+Considering the time-constraint, no cross-validation, nor a full exploration of the training techniques could be performed beyond the ones provided.
 
 ## The BERTScore
 
