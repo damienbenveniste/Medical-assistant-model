@@ -1,0 +1,47 @@
+====================================================================================================
+MEDICAL ASSISTANT MODEL COMPARISON
+====================================================================================================
+Models tested: QWen vs T5-FLAN
+
+==================== QUESTION 1 ====================
+QUESTION: What is (are) harlequin ichthyosis ?
+
+EXPECTED ANSWER:
+Harlequin ichthyosis is a severe genetic disorder that mainly affects the skin. Infants with this condition are born with very hard, thick skin covering most of their bodies. The skin forms large, diamond-shaped plates that are separated by deep cracks (fissures). These skin abnormalities affect the shape of the eyelids, nose, mouth, and ears, and limit movement of the arms and legs. Restricted movement of the chest can lead to breathing difficulties and respiratory failure.  The skin normally forms a protective barrier between the body and its surrounding environment. The skin abnormalities associated with harlequin ichthyosis disrupt this barrier, making it more difficult for affected infants to control water loss, regulate their body temperature, and fight infections. Infants with harlequin ichthyosis often experience an excessive loss of fluids (dehydration) and develop life-threatening infections in the first few weeks of life. It used to be very rare for affected infants to survive the newborn period. However, with intensive medical support and improved treatment, people with this disorder now have a better chance of living into childhood and adolescence.
+
+QWEN MODEL ANSWER:
+Harlequin ichthyosis is a genetic disorder in which the skin is thick and wrinkled. The condition is characterized by a characteristic face shape, which resembles a harlequin. There is also a high incidence of growth retardation, which causes skin to be abnormally small, dry and wrinkled. Affected individuals are born with a skin disorder that gradually worsens over a period of time. It may result in severe skin infections, which lead to skin complications such as cellulitis and necrosis. The condition is caused by mutations in the RAS oncogene and is inherited in an autosomal dominant manner.
+
+T5-FLAN MODEL ANSWER:
+Harlequin ichthyosis is a rare condition that affects the skin. It is caused by mutations in the X-linked gene and is inherited in an autosomal recessive pattern, which means both copies of the gene in each cell have mutations. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition. In some cases, the condition is inherited in an autosomal recessive pattern, which means both copies of the gene in each cell have mutations. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated
+
+--------------------------------------------------------------------------------
+
+==================== QUESTION 2 ====================
+QUESTION: What is (are) Chilaiditi syndrome ?
+
+EXPECTED ANSWER:
+Chilaiditi syndrome is a medical condition in which a portion of the colon is abnormally positioned between the liver and the diaphragm. Symptoms vary, but may include abdominal pain, nausea, vomiting, and small bowel obstruction. In many cases, there are no symptoms and the interposition is an incidental finding. When no symptoms are present, the clinical finding is called Chilaiditi's sign.. The underlying cause of Chilaiditi syndrome is unknown. Treatment is symptomatic and supportive.
+
+QWEN MODEL ANSWER:
+Chilaiditi syndrome is characterized by an inability to walk or stand (neurogenic paraplegia), muscle weakness, seizures, and abnormal gait (walking pattern). Affected individuals typically have a limp and a slight limp. Muscle weakness in the legs is usually the most prominent feature of the disease. Affected individuals may also have muscle weakness in the arms, the chest, upper abdomen, and abdomen (diaphragm weakness). Neurogenic paraplegia may also cause problems with vision, including blindness, diplopia (double vision), and loss of motor function in the eye muscles. Affected individuals may also experience tremor, muscle stiffness, and involuntary movements (ataxia). Affected individuals typically have seizures. Affected individuals may have intellectual disabilities and hearing loss. Affected individuals may be born with low birth weight and/or be short for their gestational age. Other common signs and symptoms include a slow metabolism (lactase deficiency) and delayed puberty. Chil
+
+T5-FLAN MODEL ANSWER:
+Chilaiditi syndrome is a condition that affects the brain and spinal cord. It is caused by mutations in the X-linked gene and is inherited in an autosomal recessive pattern. The condition is caused by mutations in the X-linked gene, which is inherited in an autosomal recessive pattern, which means both copies of the gene in each cell have mutations. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated gene, but they typically do not
+
+--------------------------------------------------------------------------------
+
+==================== QUESTION 3 ====================
+QUESTION: What is (are) vitelliform macular dystrophy ?
+
+EXPECTED ANSWER:
+Vitelliform macular dystrophy is a genetic eye disorder that can cause progressive vision loss. This disorder affects the retina, the specialized light-sensitive tissue that lines the back of the eye. Specifically, vitelliform macular dystrophy disrupts cells in a small area near the center of the retina called the macula. The macula is responsible for sharp central vision, which is needed for detailed tasks such as reading, driving, and recognizing faces.  Vitelliform macular dystrophy causes a fatty yellow pigment (lipofuscin) to build up in cells underlying the macula. Over time, the abnormal accumulation of this substance can damage cells that are critical for clear central vision. As a result, people with this disorder often lose their central vision, and their eyesight may become blurry or distorted. Vitelliform macular dystrophy typically does not affect side (peripheral) vision or the ability to see at night.  Researchers have described two forms of vitelliform macular dystrophy with similar features. The early-onset form (known as Best disease) usually appears in childhood; the onset of symptoms and the severity of vision loss vary widely. The adult-onset form begins later, usually in mid-adulthood, and tends to cause vision loss that worsens slowly over time. The two forms of vitelliform macular dystrophy each have characteristic changes in the macula that can be detected during an eye examination.
+
+QWEN MODEL ANSWER:
+Vitelliform macular dystrophy is a disorder that causes vision loss. The eyes are the first to show symptoms of this disorder. Vitelliform macular dystrophy is caused by mutations in the CACNA1L gene. When this gene is mutated, the cells that make a protein called voltage-gated calcium channels are not able to conduct electrical impulses properly. The cells in the retina of the eye send signals to the brain, telling it to make vision. Without these signals, vision is impaired and slowly deteriorates. Vitelliform macular dystrophy is a form of dystrophy. Dystrophy is a term that refers to a group of disorders that cause gradual loss of function, or tissue damage, in the body. Vitelliform macular dystrophy is characterized by the production of a very small amount of a protein called dystrophin. Dystrophin is a protein that prevents muscle fibers from breaking down. The breakdown of muscle fibers is called muscle fiber degeneration
+
+T5-FLAN MODEL ANSWER:
+Vitelliform macular dystrophy (vitelliform macular dystrophy) is a condition that affects the optic nerve. It is caused by mutations in the X-linked gene and is inherited in an autosomal recessive pattern, which means both copies of the gene in each cell have mutations. The parents of an individual with an autosomal recessive condition each carry one copy of the mutated gene, but they typically do not show signs and symptoms of the condition.
+
+--------------------------------------------------------------------------------
+

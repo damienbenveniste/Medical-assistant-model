@@ -1,0 +1,76 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+venv/
+env/
+ENV/
+
+# Trained models and model artifacts
+*.pkl
+*.pth
+*.pt
+*.h5
+*.hdf5
+*.joblib
+*.model
+*.bin
+*.safetensors
+models/
+checkpoints/
+*.ckpt
+*.pb
+
+# Local model directories
+medical_assistant/
+medical_assistant_seq2seq/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files
+*.csv
+*.tsv
+*.json
+*.jsonl
+*.parquet
+*.feather
+*.arrow
+data/
+datasets/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and monitoring
+logs/
+*.log
+wandb/
+mlruns/
+.tensorboard/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Cache directories
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+training_result.txt
