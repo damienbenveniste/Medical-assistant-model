@@ -6,7 +6,7 @@ A comprehensive framework for training medical AI assistants using both decoder-
 
 The data presented is akin to a *Sequence-to-Sequence* learning task. The data is too small to induce any knowledge, so the learning goal is mostly for the model to learn the question-answer format within the medical data domain. Considering the maximum size of the answers (~4000 tokens), it implies a *decoder-only* architecture. I chose a QWen-0.6B-base model as a starting point for the fine-tuning task on the provided data. For the sake of reducing the training time in a more manageable time-window, I ended up to reduce the context window to 256 tokens. As such, it becomes a "mock" training that doesn't capture the full scale of the actual training job that would need to happen in a real setting.
 
-By reducing the sequence scale to maximum 256, using an *Encoder-Decoder* architecture becomes potentially more adapted. I used a T5-FLAN-small model (77M parameters) as a pretrained model for the fine-tuning job.
+By reducing the sequence scale to maximum 256 tokens, using an *Encoder-Decoder* architecture becomes potentially more adapted. I used a T5-FLAN-small model (77M parameters) as a pretrained model for the fine-tuning job.
 
 Both models are trained by computing the loss function only on the completion and the decoder-only model is trained with a LoRA adapter. I use BertScore as a validation metric measured on the generated answers compared to reference answers. Bertscore is good to validate that the model starts to use more of a medical jargon, but it will also provide a sense of domain knowledge in the responses provided. Considering the simple question-answer format following learning task, perplexity is also meaningful metric to consider. As expected, the 2025 500M parameter QWen model outperformed the 2021 77M parameter T5-FLAN model in both those scores!
 
@@ -75,7 +75,7 @@ $$F_1 = \frac{2 \cdot P \cdot R}{P + R}$$
 
 ```bash
 # Clone the repository
-git clone <repository-url>
+git clone https://github.com/damienbenveniste/Medical-assistant-model.git
 cd Medical_Assistant
 
 # Install dependencies using uv (recommended)
